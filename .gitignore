@@ -1,0 +1,5 @@
+**/target
+**/res/sortable/default
+*.i32Little
+*.i32Big
+*.lock

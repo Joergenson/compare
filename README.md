@@ -10,7 +10,7 @@ In order to add to the implementations it is expected to follow this structure.
 │  └── Impl 2
 │
 ├── Rust
-│   ├── Worskpace 
+│   ├── workspace
 │   │   ├── Impl 1
 │   │   └── impl 2
 │   └── Cargo.toml
