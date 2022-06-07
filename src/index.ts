@@ -61,7 +61,7 @@ function precise(array: Array<number>): number {
 /**
  * Performs a precise estimation for the execution time of JavaScript's fetch() method.
  * @param endpoint The path to the resource you want to fetch.
- * @returns The execution time it took to sort the array in microseconds.
+ * @returns The execution time it took to fetch the resource in microseconds.
  */
 async function request(endpoint: string): Promise<number> {
     // Check if the input endpoint is null or if the length is zero
