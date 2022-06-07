@@ -1,21 +1,8 @@
-## A repository dedicated to compare sorting methods in different langagues
+# benchmark-typescript
+Benchmarks of [Array.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) and [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) with TypeScript.
 
-## File structure
+## License
 
-In order to add to the implementations it is expected to follow this structure.
-```
-.
-├─ Java
-│  ├── Impl 1
-│  └── Impl 2
-│
-├── Rust
-│   ├── Worskpace 
-│   │   ├── Impl 1
-│   │   └── impl 2
-│   └── Cargo.toml
-│
-├── Run.ps1
-├── Run.sh
-└── Makefile
-```
+[MIT](LICENSE)
+
+Copyright 2022, Simon Sørensen

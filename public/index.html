@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>benchmark-typescript</title>
+    </head>
+    <body>
+        <h1>Benchmarking with TypeScript</h1>
+        <p>Benchmarks of Array.sort() and fetch() with TypeScript.</p>
+
+        <button onclick="console.log(precise(new Array(100000).fill(Math.random())))">Sort array</button>
+
+        <button onclick="request('https://jsonplaceholder.typicode.com/todos/1').then(response => console.log(response))">Request data</button>
+        
+        <script src="index.js" defer></script>
+    </body>
+</html>

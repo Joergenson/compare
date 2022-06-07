@@ -1,0 +1,24 @@
+{
+  "name": "benchmark-typescript",
+  "version": "1.0.0",
+  "description": "Benchmarks of Array.sort() and fetch() with TypeScript.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "algorithms",
+    "arrays",
+    "sort",
+    "fetch",
+    "benchmark"
+  ],
+  "author": "Simon Sørensen",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
